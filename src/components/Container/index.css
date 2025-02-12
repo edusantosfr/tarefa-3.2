@@ -1,9 +1,13 @@
 .table {
-    width: 800px;
+    width: 900px;
     font-size: 1.5rem;
     border: 1px solid white;
     border-collapse: collapse;
     margin-bottom: 50px;
+}
+
+.tableHead p {
+    margin-inline: 40px;
 }
 
 .tableItems img {
@@ -23,4 +27,50 @@
 
 .tableItems p {
     padding: 20px;
+}
+
+.tableItems input {
+    width: 30px;
+    height: 30px;
+}
+
+.modalStyle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalContentStyle {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    color: #282c34;
+    font-size: 1.5rem;
+    min-width: 400px;
+}
+
+.modalContentStyle li {
+    list-style: none;
+}
+
+.closeBtn {
+    margin-top: 40px;
+    padding: 15px;
+    padding-inline: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    background: #282c34;
+}
+
+.closeBtn:hover {
+    background: #474b53;
 }
